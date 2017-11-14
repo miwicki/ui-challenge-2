@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  /*border: red solid 1px;*/
+}
+
+body {
+  margin: 5vw 7vw;
+}
+
+label {
+  display: block;
+}
+
+div {
+  margin-bottom: 4vw;
+}
+
+button {
+  padding: 2vw 6vw;
+  border: none;
+}
+
+h1 {
+  font-size: 4vw;
+  text-align: center;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 3vw;
+  font-style: italic;
+}
+
+label {
+  margin-bottom: 1.7vw;
+}
+
+input[type='radio'],
+input[type='checkbox'] {
+  display: none;
+}

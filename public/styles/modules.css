@@ -1,0 +1,43 @@
+input[type=checkbox] + label{
+  display: inline-block;
+  cursor: pointer;
+  outline: 0;
+  width: 15vw;
+  height: 15vw;
+  background-image: url('../vendor/img/form-elements-sprite.png');
+  background-position: 12.2% 49.5%;
+  background-size: 900%;
+}
+
+input[type=checkbox]:checked + label {
+  display: inline-block;
+  cursor: pointer;
+  outline: 0;
+  width: 15vw;
+  height: 15vw;
+  background-image: url('../vendor/img/form-elements-sprite.png');
+  background-position: 29.4% 49.5%;
+  background-size: 900%;
+}
+
+input[type=radio] + label {
+  display: inline-block;
+  cursor: pointer;
+  outline: 0;
+  width: 15vw;
+  height: 15vw;
+  background-image: url('../vendor/img/form-elements-sprite.png');
+  background-position: 45.2% 51%;
+  background-size: 860%;
+}
+
+input[type=radio]:checked + label {
+  display: inline-block;
+  cursor: pointer;
+  outline: 0;
+  width: 15vw;
+  height: 15vw;
+  background-image: url('../vendor/img/form-elements-sprite.png');
+  background-position: 63% 51%;
+  background-size: 860%;
+}

@@ -1,0 +1,33 @@
+div label {
+  font-size: 4vw;
+}
+
+.text input {
+  width: 100%;
+  font-size: 6vw;
+}
+
+.select select {
+  font-size: 6vw;
+  width: 100%;
+}
+
+#buttons button[name="darkButton"] {
+  background-color: #555;
+  color: white;
+}
+
+#buttons button[name="darkButton"]:active {
+  background-color: #ddd;
+  color: black;
+}
+
+#buttons button[name="lightButton"] {
+  background-color: #ddd;
+  color: black;
+}
+
+#buttons button[name="lightButton"]:active {
+  background-color: #555;
+  color: white;
+}

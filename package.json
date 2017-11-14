@@ -1,0 +1,27 @@
+{
+  "name": "ui-challenge-2",
+  "version": "1.0.0",
+  "description": "Custom form elements, using Sprites",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "pg": "^7.4.0",
+    "request-ip": "^2.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Snobeard/ui-challenge-2.git"
+  },
+  "author": "Matthew LeBlanc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Snobeard/ui-challenge-2/issues"
+  },
+  "homepage": "https://github.com/Snobeard/ui-challenge-2#readme"
+}

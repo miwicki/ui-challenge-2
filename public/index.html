@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ui Challenge 02</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/modules.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <form class="ui" method="#">
+      <!-- Header -->
+      <div>
+        <h1>UI Challenge - Custom Form Elements</h1>
+      </div>
+
+      <!-- Note: -->
+      <div>
+        <p>NOTE: <b>DO NOT</b> attempt to directly style radio buttons, checkboxes, or the custom select box - you'll need to use the provided sprite sheet and a series of custom JS methods to complete this challenge... don't worry if it's not perfect - styling custom form elements can be tricky and you'll need to use your best judgement at times!</p>
+      </div>
+
+      <!-- text input -->
+      <div class="text">
+        <label>text input</label>
+          <input type="text" name="textInput" placeholder="placeholder text">
+      </div>
+
+      <!-- text input w/ validation error -->
+      <div class="text">
+        <label>text input /w validation error</label>
+          <input type="text" name="inputValidation" placeholder="placeholder text" required>
+      </div>
+
+      <!-- select box -->
+      <div class="select">
+        <label>select box</label>
+          <select class="" name="select" disabled>
+            <option value="">please select an option...</option>
+          </select>
+      </div>
+
+      <!-- select box - open -->
+      <div class="select">
+        <label>select box - open</label>
+          <select class="" name="selectOpen" placeholder="test">
+            <option value="" disabled selected hidden>please select an option...</option>
+            <option value="1">option 1</option>
+            <option value="2">option 2</option>
+            <option value="3">option 3</option>
+            <option value="4">option 4</option>
+            <option value="5">option 5</option>
+          </select>
+      </div>
+
+      <!-- checkbox -->
+      <div id="checkbox">
+        <label>checkbox</label>
+        <input type="checkbox" name="notCheck"/>
+        <label class="check" for="notCheck"></label>
+        <input type="checkbox" name="isCheck" checked/>
+        <label class="check" for="isCheck"></label>
+      </div>
+
+      <!-- radio -->
+      <div id="radio">
+        <label>radio</label>
+        <input type="radio" name="radioButtons" value="0">
+        <label class="radio" for="notRadio"></label>
+        <input type="radio" name="radioButtons" value="1" checked>
+        <label class="radio" for="isRadio"></label>
+      </div>
+
+      <!-- buttons -->
+      <div id="buttons">
+        <label>buttons</label>
+          <button type="submit" name="lightButton">submit</button>
+          <button type="submit" name="darkButton">submit</button>
+      </div>
+    </form>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="scripts/app.js"></script>
+    <script type="text/javascript">
+      myUI.initIndexPage();
+    </script>
+  </body>
+</html>
